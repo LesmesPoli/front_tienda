@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asignación de Roles - SoftApp</title>
+  <link rel="stylesheet" href="./7.css">
+</head>
+<body>
+  <header>
+    <h1>Panel de Roles</h1>
+  </header>
+
+  <main class="roles-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Correo</th>
+          <th>Rol actual</th>
+          <th>Nuevo rol</th>
+          <th>Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Juan Pérez</td>
+          <td>juanp@example.com</td>
+          <td>Usuario</td>
+          <td>
+            <select>
+              <option value="usuario">Usuario</option>
+              <option value="administrador">Administrador</option>
+              <option value="moderador">Moderador</option>
+            </select>
+          </td>
+          <td><button>Actualizar</button></td>
+        </tr>
+        <tr>
+          <td>María Gómez</td>
+          <td>mariag@example.com</td>
+          <td>Moderador</td>
+          <td>
+            <select>
+              <option value="usuario">Usuario</option>
+              <option value="administrador">Administrador</option>
+              <option value="moderador">Moderador</option>
+            </select>
+          </td>
+          <td><button>Actualizar</button></td>
+        </tr>
+        <!-- Más filas de usuarios -->
+      </tbody>
+    </table>
+  </main>
+
+  <div class="back-button">
+    <a href="http://127.0.0.1:5500/home/1.html">← Volver al Inicio</a>
+  </div>
+
+</body>
+</html>

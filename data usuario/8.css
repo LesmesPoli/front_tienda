@@ -1,0 +1,81 @@
+/* usuario.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f7f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.perfil-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.datos-usuario h2 {
+  margin-bottom: 1rem;
+  color: #3498db;
+}
+
+.datos-usuario p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.acciones {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:first-of-type {
+  background-color: #3498db;
+  color: white;
+}
+
+button.eliminar {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.back-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.back-button a {
+  display: inline-block;
+  background-color: #34495e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button a:hover {
+  background-color: #2c3e50;
+}
