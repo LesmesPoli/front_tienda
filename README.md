@@ -8,14 +8,14 @@ Este repositorio contiene el desarrollo de la aplicación **SoftApp**, realizada
 
 ---
 
-## 📂 Estructura del proyecto  
+## Estructura del proyecto  
 
 - **HTML y CSS/** → Desarrollo básico con tecnologías nativas.  
 - **Angular/** → Desarrollo avanzado con el framework Angular.  
 
 ---
 
-## 🚀 Ejecución del proyecto
+## Ejecución del proyecto
 
 ### 1. Versión en HTML y CSS (Desarrollo simple)
 
@@ -56,7 +56,7 @@ En la carpeta **`Angular`** se encuentra la implementación avanzada de **SoftAp
 
 ---
 
-✍️ Proyecto académico desarrollado como parte del módulo de **Desarrollo Front-End**.
+Proyecto académico desarrollado como parte del módulo de **Desarrollo Front-End**.
 
 ---
 
